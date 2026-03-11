@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Étterem</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Megrendelő Neve:</label><br>
+        <input type="text" id="mnev"><br><br>
+        <label for="">Telefonszám: </label><br>
+        <input type="tel" id="phone"><br><br>
+        <label for="">Kiszállítási cím:</label><br>
+        <input type="text" id="cim"><br><br>
+        <label for="">Válassz az étlapról:</label><br>
+        <select name="" id="etlap"><br>
+            <option value="pizza">Pizza</option>
+            <option value="hamburger">Hamburger</option>
+            <option value="bolognai">Bolognai</option>
+            <option value="paradicsomleves">Paradicsomleves</option>
+        </select>
+        <br><br>
+        <button type="button" onclick="megrendeles()">Megrendeles</button>
+        <button type="button" onclick="megrendelesekMegjelnitese()">Megrendelések megtekintése</button>
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
